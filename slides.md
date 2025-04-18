@@ -31,7 +31,7 @@ The system consists of several key components:
 
 - Job Crawler
 - Ollama AI Integration
-- Google Jobs API
+- SERPER API
 - PDF Resume Parser
 - Fit Analysis Engine
 
@@ -39,7 +39,7 @@ The system consists of several key components:
 
 ```mermaid {scale: 0.7}
 graph TD
-    A[Google Jobs API] --> B[Job Crawler]
+    A[SERPER API] --> B[Job Crawler]
     B --> C[Content Extractor]
     C --> D[Ollama AI]
     E[Resume Parser] --> F[Fit Analysis]
